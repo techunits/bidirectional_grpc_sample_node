@@ -1,0 +1,26 @@
+{
+  "name": "bidirectional_grpc_sample_node",
+  "version": "1.0.0",
+  "description": "Sample codebase to demonstrate gRPC bi-directional streaming using NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techunits/bidirectional_grpc_sample_node.git"
+  },
+  "author": "techunits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techunits/bidirectional_grpc_sample_node/issues"
+  },
+  "homepage": "https://github.com/techunits/bidirectional_grpc_sample_node#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.4",
+    "@grpc/proto-loader": "^0.6.4",
+    "elogger": "^1.0.9",
+    "faker": "^5.5.3"
+  }
+}
