@@ -13,12 +13,6 @@ message ArticleResponse {
     string created_on = 4;
 }
 
-message ArticleListRequest {
-    int32 limit = 1;
-    int32 page = 2;
-}
-
 service ArticleService {
     rpc createBulkEntries(stream ArticleCreateRequest) returns (stream ArticleResponse) {}
-    rpc streamEntries(ArticleListRequest) returns (stream ArticleResponse) {}
 }
